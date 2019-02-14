@@ -22,5 +22,5 @@ echo disabling security by adding xpack.security.enabled: false to ymls
 echo "xpack.security.enabled: false" >> elasticsearch/config/elasticsearch.yml
 echo "xpack.security.enabled: false" >> kibana/config/kibana.yml
 
-echo making a start up script
+
 
