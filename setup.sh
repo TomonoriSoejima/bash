@@ -49,8 +49,3 @@ echo "./kibana/bin/kibana &" >> start.sh
 
 sleep 15
 
-echo applying license file
-cred="elastic:changeme"
-curl -XPUT -u $cred 'http://localhost:9200/_xpack/license' -H "Content-Type: application/json" -d @/Users/surfer/elastic/tools/license.json
-
-echo you may get the internal license from https://wiki.elastic.co/display/PM/Internal+License+-+X-Pack
